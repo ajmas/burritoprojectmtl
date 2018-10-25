@@ -8,15 +8,16 @@
 
     <script>
         var lang = navigator.language || navigator.userLanguage;
-        if (lang.indexOf('fr') == 0)
-            window.location = '/fr/';
-        else
-            window.location = '/en/';
+        if (lang.indexOf('fr') == 0) {
+            window.location = './fr/';
+        } else {
+            window.location = './en/';
+        }
     </script>
 
 
 <image src="./images/logo.png" style="margin: 0 auto; display: block;" />
 <h1 style="text-align: center">Projet Burrito Montréal / Burrito Project Montreal</h1>
-<div style="margin: 20px auto; display: block; text-align: center;"><a href="/fr/">En français</a> • <a href="/en/">In English</a></div>
+<div style="margin: 20px auto; display: block; text-align: center;"><a href="./fr/">En français</a> • <a href="./en/">In English</a></div>
 </body>
 </html>
